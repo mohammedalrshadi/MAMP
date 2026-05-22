@@ -14,5 +14,29 @@
     "price": 1500,
     "stockStatus": false,
     "imageUrl": "https://cdn.mos.cms.futurecdn.net/GggpafFqBSksSYQhXiprQm-500-80.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "price": 350,
+    "stockStatus": true,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/r6BASg95bP6zSqQPz9bZ8N.jpg"
+  },
+  {
+    "id": 4,
+    "name": "GoPro HERO12",
+    "category": "Action Camera",
+    "price": 400,
+    "stockStatus": false,
+    "imageUrl": "https://shashinki.com/shop/getimage/products/gpro-h12bce.jpg"
+  },
+  {
+    "id": 5,
+    "name": "ASUS ZenScreen",
+    "category": "Portable Monitor",
+    "price": 600,
+    "stockStatus": true,
+    "imageUrl": "https://i.ebayimg.com/images/g/sWEAAOSwe-dmbFya/s-l400.jpg"
   }
 ]

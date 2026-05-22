@@ -3,18 +3,13 @@ defineProps({
   gadget: Object
 })
 
-const addToCart = (name) => {
-  alert(name + ' added to cart!')
-}
+defineEmits(['add-to-cart'])
 </script>
 
 <template>
   <div class="card">
-    
-    <img
-      :src="gadget.imageUrl"
-      width="250"
-    />
+
+    <img :src="gadget.imageUrl" width="250" />
 
     <h2>{{ gadget.name }}</h2>
 
@@ -22,15 +17,10 @@ const addToCart = (name) => {
 
     <p>Price: RM {{ gadget.price }}</p>
 
-    <p v-if="gadget.stockStatus">
-      In Stock
-    </p>
+    <p v-if="gadget.stockStatus">In Stock</p>
+    <p v-else>Out Of Stock</p>
 
-    <p v-else>
-      Out Of Stock
-    </p>
-
-    <button @click="addToCart(gadget.name)">
+    <button @click="$emit('add-to-cart', gadget)">
       Add to Cart
     </button>
 
