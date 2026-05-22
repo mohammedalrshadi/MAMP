@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Marshall Speaker",
+    "category": "Audio",
+    "price": 1200,
+    "stockStatus": true,
+    "imageUrl": "https://i.insider.com/5bfc5ba6dde86732f4393666?width=1300&format=jpeg&auto=webp"
+  },
+  {
+    "id": 2,
+    "name": "Harman Kardon Aura",
+    "category": "Audio",
+    "price": 1500,
+    "stockStatus": false,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/GggpafFqBSksSYQhXiprQm-500-80.jpg"
+  }
+]
